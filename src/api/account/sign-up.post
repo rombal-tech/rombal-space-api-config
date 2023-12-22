@@ -1,0 +1,12 @@
+-- Зарегистрировать нового пользователя.
+- Регистрирует нового пользователя в системе.
+
+-> json
+Email: string [Email]
+Username: string [Username]
+Password: string [Password]
+
+<- OKWithBody
+Token: string
+
+<- ServerError

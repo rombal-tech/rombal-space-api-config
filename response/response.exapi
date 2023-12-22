@@ -1,0 +1,13 @@
+-- 500 ServerError
+models.Error
+    code="general exception"
+    message="server error"
+
+-- 200 OKWithBody(object)
+object
+
+-- 401 Unauthorized(string)
+models.Error
+    code=unauthorized
+    message=string
+

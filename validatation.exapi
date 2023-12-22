@@ -1,0 +1,8 @@
+-- Username
+required,not_space,all_ascii
+
+-- Email
+required,not_space,all_ascii,email,min=4,max=64
+
+-- Password
+required,not_space,all_ascii

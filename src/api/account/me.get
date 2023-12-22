@@ -1,0 +1,12 @@
+-- Получить информацию об аккаунте автора запроса.
+- Возвращает полную информацию об авторе запроса. Определение автора происходит через токен авторизации в заголовке
+- Authorization.
+
++ SessionAuth
+
+<- OKWithBody
+ID: string
+Email: string
+Username: string
+
+<- ServerError

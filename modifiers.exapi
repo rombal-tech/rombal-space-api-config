@@ -1,0 +1,3 @@
+-- SessionAuth
+header: Authorization [required]
+<- Unauthorized
